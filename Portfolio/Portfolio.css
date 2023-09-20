@@ -1,0 +1,46 @@
+.container-grid {
+    display: grid;
+    grid-template-columns: 21% 21% 21%;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.card1 {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.card1 img{
+   width: 283px;
+   height: 190px;
+   margin-bottom: 10px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+body {
+    background-color: white;
+}
+
+.read-more span{
+    padding-left: 15px;
+}
+
+.Menu_filtre ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Menu_filtre ul li:first-child{
+    color: #69B3A7;
+}
+

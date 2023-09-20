@@ -1,0 +1,99 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container_Menu{
+    background-color: #008374;
+    height: 520px;
+}
+
+.container_Menu .Menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    gap: 30px;
+    padding: 20px;
+    margin-right: 150px;
+}
+
+.container_Menu .Menu ul li{
+    color: white;
+    font-size: 14px;
+}
+
+.container_Menu .Menu ul li:first-child{
+    position: absolute;
+    left: 0;
+    margin-left: 130px;
+    font-size: 19px;
+}
+
+.container_Menu .Menu ul li:nth-child(2){
+    border-bottom: 2px solid red;
+}
+
+.container_blog{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+}
+
+.contenu_text{
+    color: white;
+    margin-top: 100px;
+}
+
+.dot{
+    color: red;
+}
+/* 
+.section_image img{
+    width: 95%;
+} */
+
+.btnvideo{
+    padding-top: 30px;
+}
+.btnvideo button{
+    width: 170px;
+    height: 50px;
+    background-color: #1A9082;
+    color: white;
+    border-radius: 50px;
+    border: thick white;
+    margin-right: 20px;
+}
+
+.section_card{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 18% 18% 18% 18%;
+    gap: 20px;
+    align-items: center;
+}
+
+.section_card .card1{
+    background-color: #1A9082;
+    height: 230px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-top: -100px;
+    color: white;
+    border-radius: 5px;
+}
+
+.card1 i{
+    padding-top: 80px;
+    margin: 0 auto;
+    font-size: 35px;
+    color: white;
+    padding-left: 43%;
+}
+
+.card1 p{
+    text-align: center;
+    font-size: 20px;
+}
